@@ -25,7 +25,10 @@ class BestBooks extends Component {
     };
   }
   async componentDidMount() {
-    const url = `https://can-of-books-srv.herokuapp.com/books?EmailQuery=${this.props.auth0.user.email}`;
+    // https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com
+      // //  http://localhost:3005/books?EmailQuery=mamoun.alshishani@yahoo.com ////
+
+    const url = `https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com`;
 
     let ApiData = await axios.get(url);
     console.log(ApiData);
@@ -84,7 +87,7 @@ class BestBooks extends Component {
 
     try {
       let postUrl =
-        `https://can-of-books-srv.herokuapp.com/books?EmailQuery=${this.props.auth0.user.email}`;
+        `https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com`;
       let AddPi = await axios.post(postUrl, addBooks);
       console.log(AddPi.data, addBooks);
 
@@ -101,7 +104,7 @@ class BestBooks extends Component {
 
   deleteTheBook = async (index) => {
     // 
-    let url = `https://can-of-books-srv.herokuapp.com/books/${index}?EmailQuery=${this.props.auth0.user.email}`;
+    let url = `https://can-of-books-srv.herokuapp.com/books/${index}?EmailQuery=mamoun.alshishani@yahoo.com`;
     try {
       // //  http://localhost:3005/books/0?EmailQuery=mamoun.alshishani@yahoo.com ////
 
@@ -147,7 +150,7 @@ class BestBooks extends Component {
     };
     /// getting the data to be updated from the server ///
     // https://can-of-books-srv.herokuapp.com/books/1?EmailQuery=mamoun.alshishani@yahoo.com
-    let updateUrl = `https://can-of-books-srv.herokuapp.com/books/${index}?EmailQuery=${this.props.auth0.user.email}`;
+    let updateUrl = `https://can-of-books-srv.herokuapp.com/books/${index}?EmailQuery=mamoun.alshishani@yahoo.com`;
     let dataUrl = axios.put(updateUrl, updateBooks);
     this.setState({
       BookData: dataUrl.data,
