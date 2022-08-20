@@ -25,20 +25,21 @@
 
 ***5.`Auth0` have been used as a way of authentication***
 
-## `server deployed on heroku`
+### `server deployed on heroku`
 
 **base endpoint :**
-[Heroku Link](https://can-of-books-srv.herokuapp.com/)
+***[Heroku Link](https://can-of-books-srv.herokuapp.com/)***
 
 **get database data endpoint :**
-[Heroku Link](https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com) 
+***[Heroku Link](https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com)***
 
-frontEnd React Deployed on Netlify :
-[netlify.app Link](https://canofbooks-app.netlify.app/) 
+**frontEnd React Deployed on Netlify :**
+****[netlify.app Link](https://canofbooks-app.netlify.app/)***
 
-/// `Please keep in mind that the database is brought from an already existing email and is not based on the email that has been logIn with `
+### `Please keep in mind that the database is brought from an already existing email and is not based on the email that has been logIn with `
 
 ### `further development is on mind such as :`
+
 ***1.making a database for every user that log's In with a different email.***
 
 ***2.making the the application richer with information.***
