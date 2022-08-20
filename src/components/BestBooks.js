@@ -217,14 +217,14 @@ class BestBooks extends Component {
                           onClick={() => this.deleteTheBook(index)}
                           className="DeleteBtn"
                         >
-                          Delete
+                          Delete!
                         </button>
 
                         <button
                           onClick={() => this.showFunction(index)}
                           className="UpdateBtn"
                         >
-                          Edith!
+                          Update!
                         </button>
                       </div>
                     </div>
