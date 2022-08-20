@@ -1,0 +1,38 @@
+.login-card-div{
+    
+
+    display: flex;
+    justify-content: center;
+    margin:10rem;
+    text-align: center;
+}
+.login-card{
+    border-radius: 10px;
+    background: linear-gradient(#6d6565, #27282a);
+}
+
+.login-btn{
+
+    background-color: rgb(36, 31, 31);
+    color: red;
+    border-radius: 10px;
+}
+.login-btn:hover{
+
+        color: whitesmoke;
+        transform: scale(1.01);
+    }
+
+    .logout-btn{
+
+        background-color: rgb(36, 31, 31);
+    color: whitesmoke;
+    border-radius: 10px;
+    }
+    .logout-btn:hover{
+
+        background-color: rgb(36, 31, 31);
+    color: red;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    }

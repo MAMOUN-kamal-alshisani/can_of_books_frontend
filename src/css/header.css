@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+height: 20vh;
+}
+
+
+.me-auto{
+    /* padding:20px; */
+    /* text-align: center; */
+   display: flex;
+justify-content:space-evenly;/* margin-left: 23px;
+padding-left:20px ; */
+   /* justify-content:space-around; */
+   
+}
+/* a{
+    color: crimson;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 2px;
+} */
+
+/* a:hover{
+    color: red;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited {
+    text-decoration:underline
+  } */
+
+
+  a.nav-link{
+    color: crimson;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 2px;
+justify-content: center;  
+
+margin-left: 350px;
+
+
+}
+
+  a.nav-link:hover{
+
+    color:red
+
+  }
+
+  a.nav-link:active{
+    color: blueviolet;
+}
+a.nav-link:visited {
+    text-decoration:underline
+  }
+
+  #basic-navbar-nav{
+    display: flex;
+    justify-content:space-between;
+
+  }
+  .me-auto navbar-nav{
+    /* display: flex; */
+    justify-content:space-evenly;
+text-align: center;
+  }
+
+  .collapse:not(.show) {
+
+display: inline;
+
+  }
+
+  .linkedin-icon{
+    background-color: black;
+    color: white;
+font-size:x-large;
+  }
+
+  .Github-icon{
+    background-color: black;
+    color: white;
+font-size:x-large;
+  }
+.react-icons-container{
+
+padding-top: .5rem;
+  display: flex;
+  justify-content:space-around;
+}
+
+.header-log-div{
+
+  display: flex;
+  justify-content: right;
+}

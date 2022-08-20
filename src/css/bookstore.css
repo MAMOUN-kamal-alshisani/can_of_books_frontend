@@ -1,0 +1,126 @@
+body{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bestbooks-container{
+
+    margin-bottom:5rem ;
+}
+h1{
+text-align: center;
+color: crimson;
+letter-spacing:0.2rem;
+text-shadow: 2px 2px grey;
+}
+.ItemsCarousel-ParentDiv{
+
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.Data-Div{
+    border-radius: 15px;
+    background: linear-gradient(#282121, #6e6f73);
+    box-shadow: 12px -12px 10px 5px grey; 
+color: azure;
+    width: 90%;
+    height: 700px;
+    overflow-y: auto;
+    /* margin-top:5rem ; */
+}
+.Data-Div:hover{
+    border-radius: 15px;
+    background: linear-gradient(#120f0f, #828385);
+    /* box-shadow: -5px 7px grey;  */
+color: azure;
+    width: 90%;
+    height: 700px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+.Data-Div p{
+text-indent: 10px;
+padding-left: 10px;
+margin-bottom: 3rem;
+}
+.Data-Div img{
+    border-radius: 15px;
+    width: 70%;
+    height: 500px;
+    margin:10px;
+    /* box-shadow: -2px 4px #828385; */
+
+    border: 1px solid #828385;
+}
+.Data-Div h2{
+  
+    margin-top: 1.5rem;
+    }
+.Data-Div img:hover{
+    box-shadow: -2px 4px #5b5c5f;
+
+    border: 1px solid #828385;
+    transform: scale(1.01);
+}
+.img-Div{
+    border-radius: 15px;
+    /* background-color:black; */
+    
+    text-align: center;
+    /* box-shadow: 1px 5px #888888;   */
+}
+
+
+
+.Modal-btn{
+    border: 1px solid gray;
+    background-color: crimson;
+    color: aliceblue;
+margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+   /* width: 90px;
+   height: 30px; */
+   height: 35px;
+   border-radius: 5px;
+
+}
+.Modal-btn:hover{
+    border: 1px solid gray;
+    background-color: rgb(237, 15, 60);
+box-shadow: 2px -2px #888888;;
+transform:scale(1.02);
+    /* margin-top: 10px; */
+}
+
+.btn-container-Div{
+
+display: flex;
+justify-content: space-evenly
+
+}
+
+
+.btn-container-Div button{
+    margin: 1rem auto;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color:whitesmoke;
+    background-color: grey;
+    border: 1px solid rgb(90, 88, 88);
+    }
+    
+
+    .btn-container-Div button:hover{
+        background-color: rgb(87, 85, 85);
+        }
+        
+    
+    
+

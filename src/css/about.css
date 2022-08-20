@@ -1,0 +1,50 @@
+.about-card-container{
+
+display: flex;
+justify-content: center;
+
+margin: 5rem;
+}
+
+b{
+
+    color: crimson;
+}
+
+.about-card{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(#282121, #343436);
+color: aliceblue;
+border-radius: 10px;
+border: 1px grey red;
+    }
+
+    .about-card:hover{
+ cursor: pointer;
+ background: linear-gradient(#282121, #121213);
+        }
+  
+    .linkedin-icon:hover{
+        color: crimson;
+    }
+
+    .Github-icon:hover{
+        color: crimson;
+    }
+
+
+    .my-email{
+
+color: aliceblue;
+font-size: x-large;
+    }
+    .my-email:hover{
+
+        color: crimson;
+     
+            }
+
+            .social-media-div{
+                display: flex;
+                justify-content: space-around;
+            }

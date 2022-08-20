@@ -1,0 +1,25 @@
+
+.profile-div{
+text-align: center;
+    margin: 10rem;
+    border: 2px solid ;
+}
+.profile-div h2{
+        color: crimson;
+        text-shadow: 1px 1px grey;
+        font-family: 'Courier New', Courier, monospace
+    }
+    .profile-div p{
+        color: crimson;
+        text-shadow: 1px 1px black;
+        font-family: 'Courier New', Courier, monospace
+    }
+.profile-div img{
+    margin: 2rem;
+cursor: pointer;
+  width: 10rem;
+    }
+
+    .profile-div img{
+        box-shadow: 10px 10px 8px 10px #888888;
+        }
