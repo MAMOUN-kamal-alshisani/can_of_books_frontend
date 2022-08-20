@@ -17,7 +17,7 @@
 
 ***1.`React`: is used for this client side (frontEnd) application***
 
-***2.`Class Component` : generally Class Components and class methods are used to contain data and all functionality as well  ***
+***2.`Class Component` : generally Class Components and class methods are used to contain data and all functionality as well***
 
 ***3.`react-bootstrap-components` Components like Cards and Modal and buttons etc.. have been used***
 
@@ -46,4 +46,4 @@
 
 ## `Server UML :`
 
-![uml](src/image/react-uml.png)
+***![uml](src/image/react-uml.png)***
