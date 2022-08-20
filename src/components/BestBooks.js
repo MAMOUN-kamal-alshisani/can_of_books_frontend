@@ -224,7 +224,7 @@ class BestBooks extends Component {
                           onClick={() => this.showFunction(index)}
                           className="UpdateBtn"
                         >
-                          Edith!
+                         Update!
                         </button>
                       </div>
                     </div>
