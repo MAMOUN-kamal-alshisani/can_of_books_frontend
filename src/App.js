@@ -11,9 +11,7 @@ import Profile from "./components/profile";
 import Footer from "./components/footer";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
-  constructor() {
-    super();
-  }
+
 
   render() {
     const { isAuthenticated } = this.props.auth0;

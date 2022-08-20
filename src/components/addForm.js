@@ -3,9 +3,7 @@ import { Modal, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/addForm.css";
 class AddForm extends Component {
-  constructor(props) {
-    super(props);
-  }
+
 
   render() {
     return (

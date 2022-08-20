@@ -7,9 +7,7 @@ import { BsGithub } from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
 
 class About extends Component {
-  constructor() {
-    super();
-  }
+
 
   render() {
     return (
@@ -29,23 +27,26 @@ class About extends Component {
                   <a
                     href="https://www.linkedin.com/in/mamounalshishani-350277210"
                     target={"_blank"}
+                    rel="noreferrer" 
                   >
-                    {" "}
-                    <BsLinkedin className="linkedin-icon" />{" "}
+                
+                    <BsLinkedin className="linkedin-icon" />
                   </a>
                   <a
                     href="https://github.com/MAMOUN-kamal-alshisani"
                     target={"_blank"}
+                    rel="noreferrer" 
                   >
-                    {" "}
-                    <BsGithub className="Github-icon" />{" "}
+                   
+                    <BsGithub className="Github-icon" />
                   </a>
                   <a
                     href="mailto:mamoun.alshishani@yahoo.com"
                     target={"_blank"}
+                    rel="noreferrer" 
                   >
-                    {" "}
-                    <AiTwotoneMail className="my-email" />{" "}
+                    
+                    <AiTwotoneMail className="my-email" />
                   </a>
                 </div>
               </Card.Text>
