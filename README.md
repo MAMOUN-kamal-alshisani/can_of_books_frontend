@@ -34,7 +34,7 @@
 ***[Heroku Link](https://can-of-books-srv.herokuapp.com/books?EmailQuery=mamoun.alshishani@yahoo.com)***
 
 **frontEnd React Deployed on Netlify :**
-****[netlify.app Link](https://canofbooks-app.netlify.app/)***
+***[netlify.app Link](https://canofbooks-app.netlify.app/)***
 
 ### `Please keep in mind that the database is brought from an already existing email and is not based on the email that has been logIn with `
 
